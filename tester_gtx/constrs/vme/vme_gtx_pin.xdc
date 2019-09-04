@@ -1,0 +1,12 @@
+set_property PACKAGE_PIN AA4 [get_ports {RXP[0]}]
+set_property PACKAGE_PIN Y6  [get_ports {RXP[1]}]
+set_property PACKAGE_PIN W4  [get_ports {RXP[2]}]
+set_property PACKAGE_PIN V6  [get_ports {RXP[3]}]
+set_property PACKAGE_PIN T6  [get_ports {RXP[4]}]
+set_property PACKAGE_PIN R4  [get_ports {RXP[5]}]
+set_property PACKAGE_PIN P6  [get_ports {RXP[6]}]
+set_property PACKAGE_PIN M6  [get_ports {RXP[7]}]
+
+set_property PACKAGE_PIN R8 [get_ports GTREFCLK_P]
+set_property PACKAGE_PIN R7 [get_ports GTREFCLK_N]
+create_clock -period 8.000 [get_ports GTREFCLK_P]
